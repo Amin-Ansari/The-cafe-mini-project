@@ -1,0 +1,511 @@
+@font-face {
+  /* The noraml weight of the font added */
+  font-family: "BNazanin";
+  src: url(../Fonts/BNazanin/BNazanin.eot) format("embedded-opentype"),
+    url(../Fonts/BNazanin/BNazanin.eot?#iefix) format("embedded-opentype"),
+    url(../Fonts/BNazanin/BNazanin.ttf) format("truetype"),
+    url(../Fonts/BNazanin/BNazanin.woff2) format("woff2"),
+    url(../Fonts/BNazanin/BNazanin.woff) format("woff"),
+    url(../Fonts/BNazanin/BNazanin.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* The bold weight of the font added */
+@font-face {
+  font-family: "vazir";
+  src: url(../Fonts/vazir-font-v16.1.0/Vazir-Bold.eot)
+      format("embedded-opentype"),
+    url(../Fonts/vazir-font-v16.1.0/Vazir-Bold.eot?#iefix)
+      format("embedded-opentpe"),
+    url(../Fonts/vazir-font-v16.1.0/Vazir-Bold.ttf) format("truetype"),
+    url(../Fonts/vazir-font-v16.1.0/Vazir-Bold.woff2) format("woff2"),
+    url(../Fonts/vazir-font-v16.1.0/Vazir-Bold.woff) format("woff");
+}
+
+/* The reset style and some of the general styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "BNazanin", Arial, Helvetica, sans-serif;
+}
+a {
+  display: inline-block;
+  color: #000;
+}
+
+/* The common styles */
+.padd-top-bottom-3 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.padd-top-bottom-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.padd-top-bottom-6 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.padd-top-bottom-7 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.padd-top-bottom-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.padd-top-bottom-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padd-top-bottom-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.padd-top-bottom-14 {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.padd-top-bottom-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.padd-top-bottom-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.padd-top-bottom-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padd-top-bottom-23 {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.padd-top-bottom-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.padd-top-bottom-28 {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.padd-top-bottom-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padd-top-bottom-35 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.padd-top-bottom-38 {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.padd-top-bottom-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.padd-top-bottom-45 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.padd-top-bottom-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.padd-top-bottom-55 {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.padd-top-bottom-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padd-top-bottom-65 {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.padd-top-bottom-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.padd-top-bottom-75 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.padd-top-bottom-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.padd-right-left-3 {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.padd-right-left-5 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.padd-right-left-6 {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.padd-right-left-7 {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.padd-right-left-8 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.padd-right-left-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.padd-right-left-12 {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.padd-right-left-14 {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.padd-right-left-16 {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.padd-right-left-18 {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.padd-right-left-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.padd-right-left-23 {
+  padding-right: 23px;
+  padding-left: 23px;
+}
+.padd-right-left-25 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.padd-right-left-28 {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+.padd-right-left-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.padd-right-left-35 {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.padd-right-left-38 {
+  padding-right: 38px;
+  padding-left: 38px;
+}
+.padd-right-left-40 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.padd-right-left-45 {
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.padd-right-left-50 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.padd-right-left-55 {
+  padding-right: 55px;
+  padding-left: 55px;
+}
+.padd-right-left-60 {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.padd-right-left-65 {
+  padding-right: 65px;
+  padding-left: 65px;
+}
+.padd-right-left-70 {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.padd-right-left-75 {
+  padding-right: 75px;
+  padding-left: 75px;
+}
+.padd-right-left-80 {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.margin-top-bottom-3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.margin-top-bottom-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.margin-top-bottom-6 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.margin-top-bottom-7 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.margin-top-bottom-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.margin-top-bottom-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.margin-top-bottom-12 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.margin-top-bottom-14 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.margin-top-bottom-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.margin-top-bottom-18 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.margin-top-bottom-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.margin-top-bottom-23 {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.margin-top-bottom-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.margin-top-bottom-28 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.margin-top-bottom-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.margin-top-bottom-35 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.margin-top-bottom-38 {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.margin-top-bottom-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.margin-top-bottom-45 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.margin-top-bottom-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.margin-top-bottom-55 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.margin-top-bottom-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.margin-top-bottom-65 {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.margin-top-bottom-70 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.margin-top-bottom-75 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.margin-top-bottom-80 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.margin-right-left-3 {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.margin-right-left-5 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.margin-right-left-6 {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.margin-right-left-7 {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.margin-right-left-8 {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.margin-right-left-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.margin-right-left-12 {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.margin-right-left-14 {
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.margin-right-left-16 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.margin-right-left-18 {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+.margin-right-left-20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.margin-right-left-23 {
+  margin-right: 23px;
+  margin-left: 23px;
+}
+.margin-right-left-25 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.margin-right-left-28 {
+  margin-right: 28px;
+  margin-left: 28px;
+}
+.margin-right-left-30 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.margin-right-left-35 {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+.margin-right-left-38 {
+  margin-right: 38px;
+  margin-left: 38px;
+}
+.margin-right-left-40 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.margin-right-left-45 {
+  margin-right: 45px;
+  margin-left: 45px;
+}
+.margin-right-left-50 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.margin-right-left-55 {
+  margin-right: 55px;
+  margin-left: 55px;
+}
+.margin-right-left-60 {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.margin-right-left-65 {
+  margin-right: 65px;
+  margin-left: 65px;
+}
+.margin-right-left-70 {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.margin-right-left-75 {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+.margin-right-left-80 {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.margin-centered {
+  margin: 0px auto;
+}
+.black-background {
+  background-color: #000;
+}
+.gray-background {
+  background-color: #616161;
+}
+.light-gray-background {
+  background-color: #b3b3b3;
+}
+.white-background {
+  background-color: #fff;
+}
+.white-color {
+  color: #fff;
+}
+.black-color {
+  color: #000;
+}
+.semi-black-color {
+  color: #2e2d2c;
+}
+.dis-block {
+  display: block;
+}
+.dis-inline {
+  display: inline;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-flex {
+  display: flex;
+}
+.dis-none {
+  display: none;
+}
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+.postion-fixed {
+  position: fixed;
+}
+.postion-sticky {
+  position: sticky;
+}
+
+/*The styles which had used one time or for only one element*/
+
+/*The hover styles*/
