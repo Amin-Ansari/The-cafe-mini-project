@@ -44,7 +44,7 @@
             <li
               class="nav-item-hover menu-item-hide width-md-3-col width-lg-3-col width-xl-3-col"
             >
-              <a class="padding-of-nav white-color" href="#">آدرس ما</a>
+              <a class="padding-of-nav white-color" href="#address">آدرس ما</a>
             </li>
           </ul>
         </div>
@@ -76,7 +76,9 @@
             <a class="padd-top-bottom-14 white-color" href="#menu">منو</a>
           </li>
           <li class="nav-item-hover">
-            <a class="padd-top-bottom-14 white-color" href="#">آدرس ما</a>
+            <a class="padd-top-bottom-14 white-color" href="#address"
+              >آدرس ما</a
+            >
           </li>
         </ul>
       </div>
@@ -157,11 +159,75 @@
       >
         <div class="centered-text padd-top-bottom-60">
           <h2
-            class="centered-text white-color black-background dis-inline-block padd-top-bottom-5 padd-right-left-16 title-font"
+            class="centered-text white-color black-background dis-inline-block padd-top-bottom-5 padd-right-left-30 title-font"
           >
             منو
           </h2>
         </div>
+      </div>
+    </section>
+
+    <section id="address">
+      <div
+        class="container margin-centered padd-top-bottom-16 padd-right-left-40"
+      >
+        <div class="centered-text padd-top-bottom-60">
+          <h2
+            class="centered-text white-color black-background dis-inline-block padd-top-bottom-5 padd-right-left-12 title-font"
+          >
+            آدرس ما
+          </h2>
+        </div>
+        <p class="padd-top-bottom-10">
+          با استفاده از نقشه زیر میتوانید آدرس مارا پیدا کنید.
+        </p>
+        <img
+          src="images/map.jpg"
+          alt="The cafe's location"
+          class="dis-inline-block image-full-width margin-top-bottom-8 first-image-filter"
+        />
+        <p>
+          <span class="caution padd-right-left-3 padd-top-bottom-3">توجه!</span>
+          هرگونه مناسبت های خاص و خانوادگی مانند جشن تولد ها ، سالگرد ها و... با
+          بهترین خدمات و با کیفیت ترین غذا ها و نوشیدنی ها و زیباترین آیتم ها
+          پدیرفته میشود؛ لحظات شاد و بیاد ماندنی زندگیتان را در کافه ما به ثبت
+          برسانید.
+        </p>
+        <p class="padd-top-bottom-18">
+          ازطریق فرم زیر میتوانید
+          <span class="inforamtion-titles"> میز رزرو کنید </span>یا برای ما
+          پیغامی بفرستید.
+        </p>
+        <form action="#">
+          <input
+            type="text"
+            placeholder="نام"
+            class="input-style margin-top-bottom-10"
+          />
+          <input
+            type="number"
+            placeholder="تعداد افراد"
+            min="1"
+            max="30"
+            class="input-style margin-top-bottom-10"
+          />
+          <input
+            type="datetime-local"
+            min="2022-01-01"
+            max="2022-30-12"
+            class="input-style margin-top-bottom-10"
+          />
+          <input
+            type="text"
+            placeholder="پیغام/ درخواستی ویژه"
+            class="input-style margin-top-bottom-10"
+          />
+          <input
+            type="submit"
+            value="ارسال"
+            class="submit-style width-xs-4-col width-sm-4-col width-md-2-col width-lg-2-col width-xl-2-col"
+          />
+        </form>
       </div>
     </section>
     <script src="JS/index.js"></script>
