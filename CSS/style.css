@@ -1,23 +1,23 @@
 @font-face {
-  /* The noraml weight of the font added */
-  font-family: "BNazanin";
-  src: url(../Fonts/BNazanin/BNazanin.eot) format("embedded-opentype"),
-    url(../Fonts/BNazanin/BNazanin.eot?#iefix) format("embedded-opentype"),
-    url(../Fonts/BNazanin/BNazanin.ttf) format("truetype"),
-    url(../Fonts/BNazanin/BNazanin.woff2) format("woff2"),
-    url(../Fonts/BNazanin/BNazanin.woff) format("woff"),
-    url(../Fonts/BNazanin/BNazanin.svg) format("svg");
+  font-family: "Vazir";
+  src: url("../Fonts/vazir/Vazir.eot");
+  src: url("../Fonts/vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/vazir/Vazir.woff2") format("woff2"),
+    url("../Fonts/vazir/Vazir.woff") format("woff"),
+    url("../Fonts/vazir/Vazir.ttf") format("truetype"),
+    url("../Fonts/vazir/Vazir.svg#Vazir") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-/* The bold weight of the font added */
 @font-face {
-  font-family: "Vazir";
-  src: url("Vazir.eot");
-  src: url("Vazir.eot?#iefix") format("embedded-opentype"),
-    url("Vazir.woff2") format("woff2"), url("Vazir.woff") format("woff"),
-    url("Vazir.ttf") format("truetype"), url("Vazir.svg#Vazir") format("svg");
+  font-family: "BNazanin";
+  src: url("../Fonts/BNazanin/BNazanin.eot");
+  src: url("../Fonts/BNazanin/BNazanin.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/BNazanin/BNazanin.woff2") format("woff2"),
+    url("../Fonts/BNazanin/BNazanin.woff") format("woff"),
+    url("../Fonts/BNazanin/BNazanin.ttf") format("truetype"),
+    url("../Fonts/BNazanin/BNazanin.svg#BNazanin") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -30,7 +30,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: "BNazanin", Arial, Helvetica, sans-serif;
+  font-family: "BNazanin";
   font-size: 19px;
 }
 a {
@@ -522,8 +522,18 @@ button:hover {
 .bars-flex {
   justify-content: center;
 }
+.heading-font {
+  font-family: "Vazir";
+  font-weight: bold;
+}
 .title-font {
   font-size: 25px;
+}
+.font-15 {
+  font-size: 15px !important;
+}
+.font-18 {
+  font-size: 18px !important;
 }
 .font-20 {
   font-size: 20px;
@@ -583,7 +593,7 @@ button:hover {
   text-align: center;
 }
 .heder-title-padd {
-  padding: 165px 0px 114px;
+  padding: 155px 0px 114px;
 }
 .time-padding {
   padding: 1px 3px;
