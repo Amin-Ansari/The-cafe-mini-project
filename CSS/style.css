@@ -512,6 +512,9 @@ li {
 .bars-flex {
   justify-content: center;
 }
+.title-font {
+  font-size: 25px;
+}
 .font-20 {
   font-size: 20px;
 }
