@@ -17,27 +17,77 @@
   </head>
   <body>
     <header>
-      <nav class="container-floud">
-        <div class="black-background">
+      <nav class="container-floud black-background dis-flex">
+        <div
+          class="dis-inline-block width-xs-11-col width-sm-11-col width-md-12-col width-lg-12-col"
+        >
           <ul class="dis-flex nav-flex padd-top-bottom-7 padd-right-left-5">
-            <li class="nav-item-hover">
+            <li
+              class="nav-item-hover menu-item-hide width-md-3-col width-lg-3-col width-xl-3-col"
+            >
               <a class="padding-of-nav white-color" href="index.htm"
                 >صفحه اصلی</a
               >
             </li>
-            <li class="nav-item-hover">
+            <li
+              class="nav-item-hover menu-item-hide width-md-3-col width-lg-3-col width-xl-3-col"
+            >
               <a class="padding-of-nav white-color" href="#">درباره ما</a>
             </li>
-            <li class="nav-item-hover">
+            <li
+              class="nav-item-hover menu-item-hide width-md-3-col width-lg-3-col width-xl-3-col"
+            >
               <a class="padding-of-nav white-color" href="#">منو</a>
             </li>
-            <li class="nav-item-hover">
+            <li
+              class="nav-item-hover menu-item-hide width-md-3-col width-lg-3-col width-xl-3-col"
+            >
               <a class="padding-of-nav white-color" href="#">آدرس ما</a>
             </li>
           </ul>
         </div>
+        <div
+          class="padd-top-bottom-7 bars-width bars-flex bars-show bars-hover"
+          onclick="openAndClose()"
+        >
+          <i
+            class="fa fa-bars white-color dis-inline-block padd-top-bottom-12"
+          ></i>
+        </div>
       </nav>
-      <div class="container-floud haeder-background"></div>
+      <div
+        class="pos-absolute black-background full-width mob-nav-hide"
+        id="mob-nav"
+      >
+        <ul class="dis-flex mob-nav-flex padd-top-bottom-7 padd-right-left-5">
+          <li class="nav-item-hover">
+            <a class="padd-top-bottom-14 white-color" href="index.htm"
+              >صفحه اصلی</a
+            >
+          </li>
+          <li class="nav-item-hover">
+            <a class="padd-top-bottom-14 white-color" href="#">درباره ما</a>
+          </li>
+          <li class="nav-item-hover">
+            <a class="padd-top-bottom-14 white-color" href="#">منو</a>
+          </li>
+          <li class="nav-item-hover">
+            <a class="padd-top-bottom-14 white-color" href="#">آدرس ما</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container-floud haeder-background">
+        <h1 class="heder-title-padd header-title white-color">کافه</h1>
+        <div class="dis-flex white-color header-text-flex padd-right-left-16">
+          <p class="dis-inline-block font-20">آدرس: بلوار قدوسی غربی</p>
+          <p
+            class="dis-inline-block black-background time-padding menu-item-hide"
+          >
+            ساعت کاری: از 06 تا 17
+          </p>
+        </div>
+      </div>
     </header>
     <script src="JS/index.js"></script>
   </body>
