@@ -465,10 +465,10 @@ li {
   background-color: #000;
 }
 .gray-background {
-  background-color: #616161;
+  background-color: #7a7a7a;
 }
 .light-gray-background {
-  background-color: #b3b3b3;
+  background-color: #ebebeb;
 }
 .white-background {
   background-color: #fff;
@@ -480,7 +480,7 @@ li {
   color: #000;
 }
 .semi-black-color {
-  color: #2e2d2c;
+  color: #272727;
 }
 .dis-block {
   display: block;
@@ -517,6 +517,22 @@ li {
 }
 .centered-text {
   text-align: center;
+}
+.justified-text {
+  text-align: justify;
+}
+.about-style {
+  line-height: 2em;
+}
+.qoute-border {
+  border-right: 13px solid #aaaaaa;
+}
+.about-1st-paragraph {
+  padding-bottom: 28px;
+}
+.inforamtion-titles {
+  color: #000;
+  font-weight: bold;
 }
 /*The styles which had used one time or for only one element*/
 .nav-flex {
@@ -558,6 +574,12 @@ li {
 }
 .front-layer {
   z-index: 1;
+}
+.body-background {
+  background-color: #f7f5f2;
+}
+.first-image-filter {
+  filter: grayscale(70%);
 }
 /*The hover styles*/
 .nav-item-hover:hover {
