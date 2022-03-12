@@ -553,6 +553,9 @@ li {
 .header-text-flex {
   justify-content: space-between;
 }
+.front-layer {
+  z-index: 1;
+}
 /*The hover styles*/
 .nav-item-hover:hover {
   background-color: #b3b3b3;

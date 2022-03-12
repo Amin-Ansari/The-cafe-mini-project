@@ -41,9 +41,6 @@
   .bars-show {
     display: flex !important;
   }
-  .mob-nav-hide {
-    display: none;
-  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1-col {
@@ -86,9 +83,6 @@
     display: flex !important;
   }
   .menu-item-hide {
-    display: none;
-  }
-  .mob-nav-hide {
     display: none;
   }
 }
@@ -135,7 +129,7 @@
   .bars-show {
     display: none !important;
   }
-  .mob-nav-hide {
+  .mob-nav-show {
     display: none !important;
   }
 }
@@ -176,9 +170,8 @@
   .width-lg-12-col {
     width: 100%;
   }
-
-  .mob-nav-hide {
-    display: none;
+  .mob-nav-show {
+    display: none !important;
   }
 }
 @media all and (min-width: 1200px) {
@@ -218,8 +211,8 @@
   .width-xl-12-col {
     width: 100%;
   }
-  .mob-nav-hide {
-    display: none;
+  .mob-nav-show {
+    display: none !important;
   }
 }
 .container-floud {

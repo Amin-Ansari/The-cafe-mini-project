@@ -1,10 +1,10 @@
+var state = false;
 function openAndClose() {
-  let state = false;
   if (state == false) {
-    document.getElementById("mob-nav").style = "display:block";
+    document.getElementById("test").style = "display:block";
     state = true;
   } else {
-    document.getElementById("mob-nav").style = "display:none";
+    document.getElementById("test").style = "display:none";
     state = false;
   }
 }
