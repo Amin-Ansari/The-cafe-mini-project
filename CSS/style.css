@@ -563,6 +563,9 @@ button:hover {
   color: #000;
   font-weight: bold;
 }
+.click-hide {
+  display: none;
+}
 /*The styles which had used one time or for only one element*/
 .nav-flex {
   flex-direction: row;

@@ -24,3 +24,15 @@ function selectTheTitle(theElement) {
     document.getElementById("warm-bar").style.display = "block";
   }
 }
+
+window.onload = function () {
+  let theMenu = document.getElementById("bars");
+  let menu = document.getElementById("mob-menu");
+  document.onclick = function (theEvent) {
+    if (theEvent.target != theMenu) {
+      menu.style.display = "none";
+    } else if (theEvent.target == theMenu) {
+      menu.style.display = "block";
+    }
+  };
+};
