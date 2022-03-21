@@ -1,14 +1,10 @@
-var state = false;
-function openAndClose() {
-  if (state == false) {
-    document.getElementById("test").style = "display:block";
-    state = true;
-  } else {
-    document.getElementById("test").style = "display:none";
-    state = false;
-  }
-}
+let menuButton = document.querySelector("button");
+let barsButton = document.querySelector("#bars");
+let theMenu = document.querySelector("#mob-menu");
 
+function menuShowAndHide() {
+  theMenu.classList.toggle("toggle-show");
+}
 function selectTheTitle(theElement) {
   if (theElement.id === "cold") {
     document.getElementById("warm").style =
@@ -25,14 +21,9 @@ function selectTheTitle(theElement) {
   }
 }
 
-window.onload = function () {
-  let theMenu = document.getElementById("bars");
-  let menu = document.getElementById("mob-menu");
-  document.onclick = function (theEvent) {
-    if (theEvent.target != theMenu) {
-      menu.style.display = "none";
-    } else if (theEvent.target == theMenu) {
-      menu.style.display = "block";
-    }
-  };
-};
+barsButton.addEventListener("click", menuShowAndHide);
+document.querySelector("#test").addEventListener("click", (test) => {
+  if (test.target !== barsButton) {
+    theMenu.classList.toggle("toggle-show");
+  }
+});

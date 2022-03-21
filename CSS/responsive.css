@@ -41,6 +41,9 @@
   .bars-show {
     display: flex !important;
   }
+  .toggle-show {
+    display: none !important;
+  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1-col {
@@ -84,6 +87,9 @@
   }
   .menu-item-hide {
     display: none;
+  }
+  .toggle-show {
+    display: none !important;
   }
 }
 @media all and (min-width: 780px) {
@@ -130,6 +136,9 @@
     display: none !important;
   }
   .mob-nav-show {
+    display: none !important;
+  }
+  .toggle-show {
     display: none !important;
   }
 }
