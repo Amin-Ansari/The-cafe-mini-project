@@ -50,6 +50,10 @@
   .bars-padd-mob {
     padding: 0px 20px !important;
   }
+  .mob-padd-reform {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1-col {
@@ -103,6 +107,10 @@
   }
   .bars-padd-mob {
     padding: 0px 20px !important;
+  }
+  .mob-padd-reform {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
   }
 }
 @media all and (min-width: 780px) {

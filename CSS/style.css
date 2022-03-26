@@ -222,8 +222,8 @@ button:hover {
   padding-left: 38px;
 }
 .padd-right-left-40 {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 40px !important;
+  padding-left: 40px !important;
 }
 .padd-right-left-45 {
   padding-right: 45px;
