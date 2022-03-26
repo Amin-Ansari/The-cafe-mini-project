@@ -41,7 +41,9 @@ function menucontent() {
 barsButton.addEventListener("click", menuShowAndHide);
 document.querySelector("#test").addEventListener("click", (test) => {
   if (test.target !== barsButton) {
-    theMenu.classList.toggle("toggle-show");
+    if (theMenu.classList.contains("toggle-show") == false) {
+      theMenu.classList.add("toggle-show");
+    }
   }
 });
 warmButton.addEventListener("click", function () {
