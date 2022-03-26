@@ -54,6 +54,9 @@
     padding-left: 13px !important;
     padding-right: 13px !important;
   }
+  .qoute-margin {
+    margin-top: 10px;
+  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1-col {
@@ -112,6 +115,9 @@
     padding-left: 13px !important;
     padding-right: 13px !important;
   }
+  .qoute-margin {
+    margin-top: 10px;
+  }
 }
 @media all and (min-width: 780px) {
   .width-md-1-col {
@@ -169,6 +175,9 @@
   .bars-padd-mob {
     padding: 0px 20px !important;
   }
+  .qoute-margin {
+    margin-top: 25px;
+  }
 }
 @media all and (min-width: 992px) {
   .width-lg-1-col {
@@ -210,6 +219,9 @@
   .mob-nav-show {
     display: none !important;
   }
+  .qoute-margin {
+    margin-top: 25px;
+  }
 }
 @media all and (min-width: 1200px) {
   .width-xl-1-col {
@@ -250,6 +262,9 @@
   }
   .mob-nav-show {
     display: none !important;
+  }
+  .qoute-margin {
+    margin-top: 25px;
   }
 }
 .container-floud {

@@ -223,7 +223,7 @@ button:hover {
 }
 .padd-right-left-40 {
   padding-right: 40px !important;
-  padding-left: 40px !important;
+  padding-left: 40px;
 }
 .padd-right-left-45 {
   padding-right: 45px;
@@ -594,6 +594,10 @@ button:hover {
 .header-title {
   font-size: 90px;
   text-align: center;
+}
+.menu-padd {
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 .heder-title-padd {
   padding: 155px 0px 114px;
