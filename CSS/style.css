@@ -529,6 +529,9 @@ button:hover {
 .title-font {
   font-size: 25px;
 }
+.english-font {
+  font-family: sans-serif;
+}
 .font-15 {
   font-size: 15px !important;
 }
