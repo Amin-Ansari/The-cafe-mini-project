@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
- }
+}
 @font-face {
   font-family: "BNazanin";
   src: url("../Fonts/BNazanin/BNazanin.eot");
@@ -562,6 +562,12 @@ button:hover {
 .about-1st-paragraph {
   padding-bottom: 28px;
 }
+.transition-slow {
+  transition: all ls;
+}
+.transition-fast {
+  transition: all 0.5s;
+}
 .inforamtion-titles {
   color: #000;
   font-weight: bold;
@@ -613,6 +619,10 @@ button:hover {
 }
 .front-layer {
   z-index: 1;
+}
+.send-hover {
+  border: none;
+  transition: all 0.4s;
 }
 .body-background {
   background-color: #f7f5f2;
@@ -676,5 +686,9 @@ button:hover {
   background-color: #b3b3b3;
 }
 .bars-hover:hover > i {
+  color: #000;
+}
+.send-hover:hover {
+  background-color: #ccc;
   color: #000;
 }
